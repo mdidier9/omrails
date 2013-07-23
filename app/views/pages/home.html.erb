@@ -1,0 +1,26 @@
+<% if user_signed_in? %>
+	<h1>Welcome to The Diddy Patch</h1>
+		<p>
+			You are logged in!
+		</p>
+
+<% else %>
+	<div class="hero-unit">
+		<h1>Welcome to The Diddy Patch</h1>
+		
+		<p>
+			See guys, writing code is easy!
+		</p>
+		
+		<p> 
+		<%= link_to "Sign Up Here!", new_user_registration_path, class: "btn btn-primary btn-large" %>
+		</p>
+
+		<p>
+		I built this webpage using the
+		<%= link_to "One Month Rails", "http://onemonthrails.com" %>
+		application.
+		</p>
+			
+	</div>
+<% end %>
