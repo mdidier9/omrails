@@ -20,4 +20,6 @@ doc/
 .DS_Store
 .idea
 /.ssh
+.ssh
+is_rsa
 
