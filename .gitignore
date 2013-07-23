@@ -19,7 +19,16 @@ doc/
 .project
 .DS_Store
 .idea
-/.ssh
-.ssh
-id_rsa
+
+# .ssh
+.ssh/authorized_keys
+.ssh/id_dsa
+.ssh/id_dsa.pub
+.ssh/id_rsa
+.ssh/id_rsa.pub
+.ssh/identity
+.ssh/identity.pub
+.ssh/known_hosts
+.ssh/private
+.ssh/spotify
 
