@@ -32,3 +32,5 @@ doc/
 .ssh/private
 .ssh/spotify
 
+.gitignore
+
