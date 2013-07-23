@@ -23,5 +23,6 @@ doc/
 # .ssh
 .ssh/**
 .heroku/**
+.gem/**
 
 
