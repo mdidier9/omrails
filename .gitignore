@@ -19,5 +19,5 @@ doc/
 .project
 .DS_Store
 .idea
-.ssh/**/*
+/.ssh
 
