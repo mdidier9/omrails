@@ -25,4 +25,5 @@ doc/
 .heroku/**
 .gem/**
 
-
+# Ignore Paperclip uploaded files
+/public/system
